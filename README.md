@@ -23,7 +23,7 @@ norms of the original sentences.
 
 **Q.E.D.**
 
-# Lingustic Math Theory: Mathetmatics
+# Lingustic Math Theory: Mathematics
 
 **LMT: The Fundamental Theorem of Linguistic Math**
 
