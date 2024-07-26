@@ -47,8 +47,7 @@ of the cardinalities of the original sets.
 
 **Q.E.D.**
 
-Linguistic Interpretation
-
+## Linguistic Interpretation
 In both cases, the LMT theorem states that any two sentences (or sets of sentences) can be combined to form a new
 sentence (or set of sentences) with a norm (or cardinality) bounded by the sum of the norms (or cardinalities) of
 the original sentences. This has important implications for language processing and generation.
