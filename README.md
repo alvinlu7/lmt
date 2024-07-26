@@ -47,27 +47,6 @@ of the cardinalities of the original sets.
 
 **Q.E.D.**
 
-Mathematical Proof
-
-The LMT theorem in both Hilbert space (Linguistics) and powerset (Set Theory) can be proven using similar
-techniques. I'll outline the steps for each:
-
-Hilbert Space Version
-
-(1) Let x, y ∈ ℋ. By construction, x ⊕ y is also in ℋ.
-(2) Define the mapping f(⋅): ℋ → ℝ as the probability of correctly parsing ⋅. Then, f(x ⊕ y) = f(x) + f(y).
-(3) Apply the triangle inequality to get ∥x ⊕ y∥ ≤ ∥x∥ + ∥y∥.
-(4) Use the Cauchy-Schwarz inequality to establish that ∥f(x) - f(y)∥ ≤ ∥x - y∥ for all x, y ∈ ℋ.
-(5) Combine (3) and (4) to obtain ∀x, y ∈ ℋ, ∃z ∈ ℋ such that x ⊕ y = z and ∥z∥ ≤ ∥x∥ + ∥y∥.
-
-Powerset Version
-
-(1) Let A, B ∈ ℘. By definition, A ∩ B is also in ℘.
-(2) Define the function f(A): ℕ → ℝ as the number of elements in A. Then, f(A ∩ B) = f(A) + f(B).
-(3) Apply the monotonicity of cardinality to get |A ∩ B| ≤ |A| + |B|.
-(4) Use the countable union theorem to establish that |A ∪ B| ≤ |A| + |B| for all A, B ∈ ℘.
-(5) Combine (3) and (4) to obtain ∀A, B ∈ ℘, ∃C ∈ ℘ such that A ∩ B = C and |C| ≤ |A| + |B|.
-
 Linguistic Interpretation
 
 In both cases, the LMT theorem states that any two sentences (or sets of sentences) can be combined to form a new
